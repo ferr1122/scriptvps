@@ -109,12 +109,6 @@ systemctl enable autosett
 wget -O /etc/set.sh "https://${akbarvpn}/set.sh"
 chmod +x /etc/set.sh
 history -c
-echo "1.2" > /home/ver
-echo " "
-echo "Installation has been completed!!"
-echo " "
-echo "=================================-Fsind Vpn Project-===========================" | tee -a log-install.txt
-echo " "
 echo " Reboot 15 Sec"
 sleep 15
 rm -f setup.sh
