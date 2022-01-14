@@ -117,7 +117,7 @@ echo "=================================-Fsind Vpn Project-======================
 echo "" | tee -a log-install.txt
 echo "----------------------------------------------------------------------------" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo ""  | tee -a log-install.txt
+echo " >>> Sevice & Port" | tee -a log-install.txt
 echo "   - OpenSSH                 : 443, 22"  | tee -a log-install.txt
 echo "   - OpenVPN                 : TCP 1194, UDP 2200, SSL 990"  | tee -a log-install.txt
 echo "   - Stunnel5                : 443, 445, 777"  | tee -a log-install.txt
@@ -144,8 +144,8 @@ echo "   - OHP SSH                 : 8181"  | tee -a log-install.txt
 echo "   - OHP Dropbear            : 8282"  | tee -a log-install.txt
 echo "   - OHP OpenVPN             : 8383"  | tee -a log-install.txt
 echo "   - Tr Go                   : 2087"  | tee -a log-install.txt
-echo ""  | tee -a log-install.txt
-echo ""  | tee -a log-install.txt
+echo "" | tee -a log-install.txt
+echo " >>> Informasi Server" | tee -a log-install.txt
 echo "   - Timezone                : Asia/Jakarta (GMT +7)"  | tee -a log-install.txt
 echo "   - Fail2Ban                : [ON]"  | tee -a log-install.txt
 echo "   - Dflate                  : [ON]"  | tee -a log-install.txt
