@@ -109,7 +109,6 @@ systemctl enable autosett
 wget -O /etc/set.sh "https://${akbarvpn}/set.sh"
 chmod +x /etc/set.sh
 history -c
-echo " Reboot 15 Sec"
 sleep 15
 rm -f setup.sh
 reboot
